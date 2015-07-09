@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeS1_2_Calculadora_Server", "AtividadeS1_2_Calculadora\AtividadeS1_2_Calculadora_Server.csproj", "{E38AB442-6BA8-4A8C-99A1-F588F086A946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtividadeS1_2_Calculadora_Client", "AtividadeS1_2_Calculadora_Client\AtividadeS1_2_Calculadora_Client.csproj", "{8A167605-AD74-4FDF-A470-D05ADA4492C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E38AB442-6BA8-4A8C-99A1-F588F086A946} = {E38AB442-6BA8-4A8C-99A1-F588F086A946}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38AB442-6BA8-4A8C-99A1-F588F086A946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38AB442-6BA8-4A8C-99A1-F588F086A946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38AB442-6BA8-4A8C-99A1-F588F086A946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38AB442-6BA8-4A8C-99A1-F588F086A946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A167605-AD74-4FDF-A470-D05ADA4492C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A167605-AD74-4FDF-A470-D05ADA4492C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A167605-AD74-4FDF-A470-D05ADA4492C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A167605-AD74-4FDF-A470-D05ADA4492C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
